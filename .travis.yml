@@ -1,0 +1,27 @@
+language: python
+sudo: false
+install: pip install -r requirements.txt
+
+matrix:
+    include:
+        # Python 2.7
+        - python: 2.7
+          env: TOX_ENV=py27
+
+        # Python 3.6
+        - python: 3.6
+          env: TOX_ENV=py36
+
+script:
+  - tox -e "${TOX_ENV}"
+
+before_install:
+  - pip install codecov
+
+after_success:
+  - coverage combine
+  - codecov
+
+notifications:
+  email:
+    - gledesma@gmail.com

@@ -1,0 +1,2 @@
+# Set the command-line arguments to pass to the server.
+ARGS="--log-file /var/log/prometheus/prometheus-sunpower-pvs-exporter.log"
