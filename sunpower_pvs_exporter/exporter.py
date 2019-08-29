@@ -198,7 +198,7 @@ class SunPowerPVSupervisorCollector(object):
             name="sunpower_pvs_inverter_heatsink_temperature",
             documentation="Heatsink Temperature",
             labels=labels,
-            unit="celcius",
+            unit="celsius",
         )
 
         return [
