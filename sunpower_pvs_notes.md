@@ -161,7 +161,7 @@ the PVS.
     }
     ```  
 
-* Device List
+* DeviceList
 
     Returns the list of discovered devices.
     
