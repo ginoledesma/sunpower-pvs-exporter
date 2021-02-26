@@ -25,7 +25,7 @@ pip install sunpower_pvs_exporter
 
 From github:
 ```
-# pip install git@github.apple.com:ginoledesma/sunpower-pvs-exporter.git
+# pip install git@github.com:ginoledesma/sunpower-pvs-exporter.git
 pip install sunpower_pvs_exporter
 ```
 
